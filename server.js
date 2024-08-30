@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5001;
 
 // Enable CORS for requests from http://localhost:3000
 app.use(cors({
-  origin: 'http://localhost:3000', // Allow requests from this origin
+  origin: 'https://linked-in-post-generator-client.vercel.app', // Allow requests from this origin
 }));
 
 app.use(express.json());
